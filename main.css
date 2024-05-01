@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Lato:wght@400;700;900&display=swap');
+body{
+    background-image: url(/31-oct/assets/images/background.png);
+    background-size: cover;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1200px;
+}
+
+.btn{
+    padding: 8px 40px;
+    font-weight: 900;
+}
+p.info-text{
+    font-size: 17px;
+    color: #232323;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cardo',sans-serif;
+}
+
+/* Start Header */
+.header{
+   padding-top: 50px;
+   padding-bottom: 70px;
+   border:1px solid transparent;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding-right: 60px;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #232323;
+    font-weight: 900;
+}
+.navbar .btn-outline-secondary{
+    color: #232323;
+    border: 2px solid;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Start banner section */
+.banner{
+    position: relative;
+    padding-bottom: 40px;
+    border: 1px solid transparent;
+}
+.banner h1{
+    font-size: 81px;
+    line-height: 76px;
+    color: #232323;
+    font-weight: 700;
+}
+.banner p.info-text{
+    padding-bottom: 10px;
+    width: 79%;
+}
+.banner .btn-dark{
+    font-family: 'Lato', sans-serif;
+    color: #e9e7e7;
+}
+.banner .art{
+    position: absolute;
+    right: 0;
+    top: 120px;
+}
+
+/* Start memory section */
+.memory{
+    background-image: url(/31-octBEContainAccorCarousel/assets/images/memory-bg.png);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.memory h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #e9e7e7;
+}
+.memory p.info-text{
+    color: white;
+}
+.memory .btn-outline-dark{
+    border: 2px solid #e9e7e7;
+    color: #e9e7e7;
+    margin-top: 10px;
+}
+
+/* Start Service section */
+.service{
+    margin-top: 120px;
+    margin-bottom: 250px;
+    position: relative;
+}
+.service h2{
+    font-size: 36px;
+    line-height: 36px;
+    color: #232323;
+    font-weight: 700;
+    position: relative;
+    padding-top: 45px;
+
+}
+.service h2:before{
+    content:'';
+    width: 70px;
+    height: 3px;
+    background-color: #232323;
+    position: absolute;
+    top: 27px;
+    left: 0;
+}
+.service .art-left{
+    position: absolute;
+    top: -130px;
+    left: 0;
+}
+.service .art-right{
+    position: absolute;
+    top: 230px;
+    right: 0;
+}
+
+/* Start places section */
+.places{
+    padding-bottom: 30px;
+}
+.places h2{
+    font-size: 98px;
+    color: #232323;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-top: 45px;
+}
+.places p.info-text{
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+.places .art-see{
+    margin-left: -60%;
+}
+.places .g4left{
+    position: relative;
+}
+.places .g4left img.shape {
+    position: absolute;
+    top: 240px;
+    left: -35px;
+}
+.places .sub-info h3{
+    font-size: 36px;
+    font-weight: 700;
+    color: #232323;
+    padding-top: 60px;
+    letter-spacing: -1px;
+    line-height: 50px;
+    text-decoration: underline;
+}
+.places .sub-info p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #232323;
+    text-align: justify;
+    padding-top: 60px;
+    line-height: 20px;
+}
+.places .text-right{
+    text-align: right;
+    padding-top: 40px;
+}
+
+/* Start like section */
+.like{
+    background-color: #232323;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.like .like-art{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.like .like-banner{
+    margin-right: -175px;
+}
+.like .like-banner img{
+    width: 100%;
+}
+.like h3{
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 700px;
+    color: #e9e7e7;
+    padding-bottom: 30px;
+}
+.like h6{
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #e9e7e7;
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+}
+.like p.info-text{
+    font-size: 16px;
+    color: #e9e7e7;
+    text-align: justify;
+    padding-right: 40px;
+}
+/* START GROUP 6 */
+.banner1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.banner1 h3{
+    font-size: 81px;
+    color: #232323;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.banner1 .accordion{
+    background-color: transparent;
+    border: 0;
+}
+.banner1 .accordion-button{
+    background-color: transparent;
+    border: 0;
+    font-size: 17px;
+    color: #232323;
+    font-family: 'lato', sans-serif;
+}
+.banner1 .accordion-item{
+    background-color: transparent;
+    border-top: 3px solid #000;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+.banner1 .accordion-item:last-child{
+    border-bottom: 3px solid #000;
+}
+
+/* START GROUP 7 */
+.myslider{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.myslider h2{
+    font-size: 81px;
+    letter-spacing: -2px;
+    line-height: 81px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    text-align: center;
+}
+.myslider #demo{
+    margin-top: 60px;
+}
+.myslider .card{
+    height: 424px;
+    border-radius: 10px;
+    background-color: #e9e7e7;
+    border: 3px solid #232323;
+    text-align: center;
+    padding: 40px 30px;
+}
+.myslider .card img{
+    width: 115px;
+    height: 105px;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+.myslider .card h3{
+    font-size: 25px;
+    font-weight: 900;
+    color: #232323;
+    font-family: 'lato', sans-serif;
+    padding-top: 30px;
+}
+.myslider .carousel-control-prev,
+.myslider .carousel-control-next{
+    border: 3px solid #000;
+    width: 70px;
+    height: 70px;
+    border-radius: 7px;
+    background-color: #e9e7e7;
+    margin-top: 15%;
+    opacity: 1;
+}
+.myslider .carousel-control-prev{
+    margin-left: -36px;
+}
+.myslider .carousel-control-next{
+    margin-right: -36px;
+}
+.myslider .G7art-left{
+    position: absolute;
+    left:0;
+}
+.myslider .G7art-right{
+    position:absolute;
+    right:0;
+    margin-top: 650px;
+}
+
+/* START GROUP 8 */
+.banner8{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.banner8 h3{
+    font-size: 81px;
+    letter-spacing: -2px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    margin-bottom: 50px;
+}
+.banner8 .form-control{
+    border-radius: 5px;
+    background-color: #e9e7e7;
+    border: 3px solid #232323;
+    font-size: 21px;
+    color: #232323;
+    font-weight: 500;
+    font-family: "Lato";
+}
+.banner8 .btn{
+     padding-left: 165px;
+     padding-right: 165px;
+     font-size: 25px;
+     color: #e9e7e7;
+     font-weight: 400;
+     font-family: "Lato";
+}
+
+/* START GROUP 9 */
+.banner9{
+    background-color: #c4c4c4;
+    padding:90px;
+    position:relative;
+}
+.banner9 h2{
+    font-size: 63px;
+    letter-spacing: -2px;
+    line-height: 63px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+.banner9 .G9art-left{
+     position:absolute;
+     left:0;
+     bottom:55px;
+}
+.banner9 h3{
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+}
+.banner9 h5{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.banner9 h1{
+    font-size: 21px;
+    letter-spacing: -1px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
